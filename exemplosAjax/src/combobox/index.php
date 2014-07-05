@@ -3,6 +3,7 @@
 <html lang="pt-br">
   <head>
     <title>Teste Ajax</title>
+    <meta charset="UTF-8" />
     <script type="text/javascript" language="javascript"src="../../../../jquery1.11.1/jqueryUncom.js"></script>
 
   </head>
