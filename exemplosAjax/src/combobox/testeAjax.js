@@ -4,7 +4,7 @@ window.onload = function() {
 		type: 'POST',
 		data: 'carrega=TRUE',
 		dataType: 'text',
-		//asyn:true,
+		asyn:true,
 		beforeSend:function() {
 			//$('#teste').html('<option>teste</option>');
 		},
@@ -27,6 +27,7 @@ $('#pais').change(
       		type: "POST",
       		data: "carrega=estados&params="+$('#pais').val(),
       		dataType: "text",
+      		asyn:true,
       		beforeSend:function(){
 
       		},
@@ -51,6 +52,7 @@ $('#estado').change(
       		type: "POST",
       		data: "carrega=cidades&params="+$('#estado').val(),
       		dataType: "text",
+      		asyn:true,
       		beforeSend:function(){
 
       		},
